@@ -3,71 +3,174 @@ type = body+head
 scale = 1
 filename = Mama/Mama.fbx
 texdir = Mama/textures
-joint = jointEyeLeft = SK_Character_Geisha
-joint = jointEyeRight = SK_Character_Geisha
-joint = jointLean = SK_Character_Geisha
-joint = jointLeftHand = SK_Character_Geisha
-joint = jointHead = SK_Character_Geisha
-joint = jointRightHand = SK_Character_Geisha
-joint = jointNeck = SK_Character_Geisha
-joint = jointRoot = SK_Character_Geisha
-jointIndex = clavicle_l = 36
-jointIndex = indexFinger_02_r = 28
-jointIndex = lowerarm_r = 20
-jointIndex = eyebrows_end = 57
-jointIndex = indexFinger_01_l = 45
-jointIndex = indexFinger_03_l = 47
-jointIndex = toes_l = 7
-jointIndex = SK_Character_Geisha = 0
-jointIndex = lowerarm_l = 38
-jointIndex = indexFinger_01_r = 27
-jointIndex = thumb_01_r = 32
-jointIndex = calf_l = 4
-jointIndex = eyebrows = 56
-jointIndex = eyes = 58
-jointIndex = Thigh_R = 9
-jointIndex = toes_r = 13
-jointIndex = spine_03 = 17
-jointIndex = Hand_L = 39
-jointIndex = Foot_R = 11
-jointIndex = Pelvis = 2
-jointIndex = finger_02_l = 41
-jointIndex = indexFinger_04_r = 30
-jointIndex = Root = 1
-jointIndex = eyes_end = 59
-jointIndex = indexFinger_04_l = 48
-jointIndex = spine_01 = 15
-jointIndex = thumb_02_r = 33
-jointIndex = thumb_01_l = 50
-jointIndex = finger_03_r = 24
-jointIndex = indexFinger_03_r = 29
-jointIndex = finger_04_l = 43
-jointIndex = thumb_03_r_end = 35
-jointIndex = spine_02 = 16
-jointIndex = toes_r_end = 14
-jointIndex = finger_04_r = 25
-jointIndex = indexFinger_04_r_end = 31
-jointIndex = thumb_03_l = 52
-jointIndex = neck_01 = 54
-jointIndex = finger_01_l = 40
-jointIndex = ball_l = 6
-jointIndex = thumb_03_r = 34
-jointIndex = calf_r = 10
-jointIndex = finger_03_l = 42
-jointIndex = UpperArm_R = 19
-jointIndex = thumb_02_l = 51
-jointIndex = indexFinger_02_l = 46
-jointIndex = Foot_L = 5
-jointIndex = ball_r = 12
-jointIndex = finger_04_l_end = 44
-jointIndex = head = 55
-jointIndex = finger_01_r = 22
-jointIndex = finger_02_r = 23
-jointIndex = toes_l_end = 8
-jointIndex = clavicle_r = 18
-jointIndex = Thigh_L = 3
-jointIndex = indexFinger_04_l_end = 49
-jointIndex = thumb_03_l_end = 53
-jointIndex = finger_04_r_end = 26
-jointIndex = UpperArm_L = 37
-jointIndex = Hand_R = 21
+joint = jointLean = Spine
+joint = jointLeftHand = LeftHand
+joint = jointHead = HeadTop_End
+joint = jointRightHand = RightHand
+joint = jointNeck = Neck
+joint = jointRoot = Hips
+freeJoint = LeftArm
+freeJoint = LeftForeArm
+freeJoint = RightArm
+freeJoint = RightForeArm
+bs = MouthDimple_R = Smile_Right = 0.25
+bs = LipsLowerClose = LowerLipIn = 1
+bs = LipsLowerOpen = LowerLipOut = 1
+bs = JawFwd = JawForeward = 1
+bs = LipsPucker = MouthNarrow_Right = 1
+bs = LipsPucker = MouthNarrow_Left = 1
+bs = EyeOpen_L = EyesWide_Left = 1
+bs = LipsUpperClose = UpperLipIn = 1
+bs = EyeSquint_L = Squint_Left = 1
+bs = LipsUpperOpen = UpperLipOut = 1
+bs = MouthLeft = Midmouth_Left = 1
+bs = MouthDimple_L = Smile_Left = 0.25
+bs = LipsLowerDown = LowerLipDown_Right = 0.7
+bs = LipsLowerDown = LowerLipDown_Left = 0.7
+bs = BrowsD_L = BrowsDown_Left = 1
+bs = JawRight = Jaw_Right = 1
+bs = JawLeft = JawRotateY_Left = 0.5
+bs = ChinUpperRaise = UpperLipUp_Right = 0.5
+bs = ChinUpperRaise = UpperLipUp_Left = 0.5
+bs = EyeBlink_L = Blink_Left = 1
+bs = Sneer = Squint_Right = 0.5
+bs = Sneer = Squint_Left = 0.5
+bs = Sneer = NoseScrunch_Right = 0.75
+bs = Sneer = NoseScrunch_Left = 0.75
+bs = BrowsU_C = BrowsUp_Right = 1
+bs = BrowsU_C = BrowsUp_Left = 1
+bs = ChinLowerRaise = Jaw_Up = 1
+bs = BrowsU_L = BrowsUp_Left = 1
+bs = LipsFunnel = TongueUp = 1
+bs = LipsFunnel = MouthWhistle_NarrowAdjust_Right = 0.5
+bs = LipsFunnel = MouthWhistle_NarrowAdjust_Left = 0.5
+bs = LipsFunnel = MouthNarrow_Right = 1
+bs = LipsFunnel = MouthNarrow_Left = 1
+bs = LipsFunnel = Jaw_Down = 0.36
+bs = LipsFunnel = JawForeward = 0.39
+bs = MouthFrown_L = Frown_Left = 1
+bs = EyeBlink_R = Blink_Right = 1
+bs = EyeOpen_R = EyesWide_Right = 1
+bs = MouthSmile_L = Smile_Left = 1
+bs = JawOpen = MouthOpen = 0.7
+bs = MouthFrown_R = Frown_Right = 1
+bs = MouthSmile_R = Smile_Right = 1
+bs = EyeSquint_R = Squint_Right = 1
+bs = LipsUpperUp = UpperLipUp_Right = 0.7
+bs = LipsUpperUp = UpperLipUp_Left = 0.7
+bs = BrowsD_R = BrowsDown_Right = 1
+bs = MouthRight = Midmouth_Right = 1
+bs = BrowsU_R = BrowsUp_Right = 1
+bs = Puff = CheekPuff_Right = 1
+bs = Puff = CheekPuff_Left = 1
+jointIndex = LeftFoot = 8
+jointIndex = Head = 47
+jointIndex = node_id22 = 104
+jointIndex = LeftHandIndex4 = 41
+jointIndex = node_id62 = 59
+jointIndex = RightToeBase = 4
+jointIndex = LeftHandIndex3 = 40
+jointIndex = node_id29 = 92
+jointIndex = RightHandThumb4 = 29
+jointIndex = Spine = 11
+jointIndex = LeftHandThumb4 = 45
+jointIndex = node_id42 = 79
+jointIndex = LeftHandThumb3 = 44
+jointIndex = node_id47 = 74
+jointIndex = node_id9 = 105
+jointIndex = node_id45 = 82
+jointIndex = node_id20 = 102
+jointIndex = LeftToe_End = 10
+jointIndex = node_id30 = 93
+jointIndex = node_id51 = 60
+jointIndex = node_id28 = 91
+jointIndex = node_id27 = 100
+jointIndex = RightLeg = 2
+jointIndex = RightHandMiddle4 = 21
+jointIndex = RightHandIndex4 = 25
+jointIndex = node_id50 = 77
+jointIndex = node_id52 = 61
+jointIndex = LeftHandIndex1 = 38
+jointIndex = node_id33 = 69
+jointIndex = node_id5 = 53
+jointIndex = node_id24 = 97
+jointIndex = RightHand = 17
+jointIndex = RightArm = 15
+jointIndex = LeftHand = 33
+jointIndex = RightHandIndex1 = 22
+jointIndex = RightHandMiddle3 = 20
+jointIndex = LeftLeg = 7
+jointIndex = node_id61 = 58
+jointIndex = Neck = 46
+jointIndex = node_id55 = 64
+jointIndex = RightHandMiddle1 = 18
+jointIndex = node_id7 = 67
+jointIndex = node_id37 = 83
+jointIndex = node_id13 = 107
+jointIndex = RightHandThumb1 = 26
+jointIndex = RightShoulder = 14
+jointIndex = RightHandMiddle2 = 19
+jointIndex = root = 49
+jointIndex = HeadTop_End = 48
+jointIndex = node_id46 = 73
+jointIndex = node_id43 = 80
+jointIndex = node_id56 = 65
+jointIndex = node_id48 = 75
+jointIndex = RightFoot = 3
+jointIndex = node_id35 = 71
+jointIndex = node_id60 = 57
+jointIndex = node_id40 = 86
+jointIndex = node_id4 = 52
+jointIndex = node_id25 = 98
+jointIndex = node_id10 = 106
+jointIndex = LeftShoulder = 30
+jointIndex = Spine2 = 13
+jointIndex = node_id21 = 103
+jointIndex = node_id14 = 108
+jointIndex = LeftForeArm = 32
+jointIndex = LeftArm = 31
+jointIndex = node_id38 = 84
+jointIndex = LeftUpLeg = 6
+jointIndex = node_id6 = 66
+jointIndex = node_id12 = 110
+jointIndex = node_id65 = 50
+jointIndex = LeftHandMiddle3 = 36
+jointIndex = node_id15 = 87
+jointIndex = node_id34 = 70
+jointIndex = node_id23 = 96
+jointIndex = node_id19 = 101
+jointIndex = node_id36 = 72
+jointIndex = Spine1 = 12
+jointIndex = node_id16 = 88
+jointIndex = node_id59 = 56
+jointIndex = node_id44 = 81
+jointIndex = node_id49 = 76
+jointIndex = node_id58 = 55
+jointIndex = node_id54 = 63
+jointIndex = node_id39 = 85
+jointIndex = node_id26 = 99
+jointIndex = node_id41 = 78
+jointIndex = LeftToeBase = 9
+jointIndex = node_id63 = 51
+jointIndex = LeftHandThumb2 = 43
+jointIndex = node_id31 = 94
+jointIndex = RightHandThumb2 = 27
+jointIndex = LeftHandIndex2 = 39
+jointIndex = node_id17 = 89
+jointIndex = RightToe_End = 5
+jointIndex = node_id32 = 95
+jointIndex = LeftHandThumb1 = 42
+jointIndex = Hips = 0
+jointIndex = LeftHandMiddle2 = 35
+jointIndex = node_id8 = 68
+jointIndex = RightForeArm = 16
+jointIndex = node_id18 = 90
+jointIndex = LeftHandMiddle4 = 37
+jointIndex = node_id53 = 62
+jointIndex = RightHandIndex3 = 24
+jointIndex = RightHandThumb3 = 28
+jointIndex = node_id11 = 109
+jointIndex = RightHandIndex2 = 23
+jointIndex = node_id57 = 54
+jointIndex = RightUpLeg = 1
+jointIndex = LeftHandMiddle1 = 34
